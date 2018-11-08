@@ -20,7 +20,7 @@ public interface UserService {
      * @param username
      * @return
      */
-    @PostMapping("/user/username")
+    @PostMapping("/remote/user/username")
     User getUserByUsername(@RequestParam("username") String username);
 
     /**
